@@ -1,1 +1,1 @@
-web: gunicorn site_env.wsgi
+web: gunicorn site_env:app
