@@ -10,4 +10,4 @@ def about():
     return render_template('about.html', title='About', active_nav='about_nav')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=33507)
