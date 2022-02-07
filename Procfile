@@ -1,1 +1,1 @@
-web python site_main.py
+python site_main.py
