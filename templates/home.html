@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="static\home.css">
+
+<div class='content pt-3'>
+
+<h2> 
+
+I don't have much content to put in here for now,
+so here's some placeholders to make this site less dull.
+
+</h2>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="static\red.png" class="d-block w-100" alt="red">
+      </div>
+      <div class="carousel-item">
+        <img src="static\stickman_pose.png" class="d-block w-100" alt="stickman">
+      </div>
+      <div class="carousel-item">
+        <img src="static\blackbird.png" class="d-block w-100" alt="bird">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+</div>
+
+
+
+{% endblock %}

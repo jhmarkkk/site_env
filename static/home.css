@@ -1,0 +1,9 @@
+.content{
+    max-width: 1000px;
+    width: 90%;
+    margin:auto;
+}
+
+.carousel-inner{
+    height: 500px;
+}
